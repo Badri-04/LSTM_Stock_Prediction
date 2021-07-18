@@ -47,7 +47,7 @@ The RMSE value is almost similar to the linear regression model and the plot sho
 
 ![kNN Model](https://github.com/Badri-04/LSTM_Stock_Prediction/blob/main/images/knn.png)
 					Predictions on Tata Global stocks using kNN Model
-LSTM Model:
+##### LSTM Model:
 LSTMs are widely used for sequence prediction problems and have proven to be extremely effective. The reason they work so well is because LSTM is able to store past information that is important, and forget the information that is not. LSTM has three gates:
 •	The input gate: The input gate adds information to the cell state
 •	The forget gate: It removes the information that is no longer required by the model
@@ -70,13 +70,13 @@ LSTMs are widely used for sequence prediction problems and have proven to be ext
 ### Result:
 #####                                   Microsoft Stock Predictions
 
-![Microsoft Stock Predictions](https://github.com/Badri-04/LSTM_Stock_Prediction/blob/main/images/msft.png)
+![Microsoft Stock Predictions](https://github.com/Badri-04/LSTM_Stock_Prediction/blob/main/images/msoft.png)
 	
  
 ![Amazon Stock Predictions](https://github.com/Badri-04/LSTM_Stock_Prediction/blob/main/images/amzn.png)
 
 
-*****By:
+##### By:
 Team number: 23
 - A.Yamini                      -198W1A0569
 - G.S.S.V Badrish          -198W1A0580
