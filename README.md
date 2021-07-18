@@ -37,7 +37,8 @@ LSTM (Long short-term memory) is an artificial recurrent neural network architec
 2) K Nearest Neighbors
 Linear Regression:
 Linear regression is a simple technique and quite easy to interpret, but there are a few obvious disadvantages. One problem in using regression algorithms is that the model overfits to the date and month column. Instead of taking into account the previous values from the point of prediction, the model will consider the value from the same date a month ago, or the same date/month a year ago.
- 
+
+![Linear Regression Model](https://github.com/Badri-04/LSTM_Stock_Prediction/blob/main/images/linear.png)
 Predictions on Tata Global stocks using Linear Regression Model
 
 K Nearest Neighbours:
