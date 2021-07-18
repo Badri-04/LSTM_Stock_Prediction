@@ -38,24 +38,25 @@ LSTM (Long short-term memory) is an artificial recurrent neural network architec
 ##### Linear Regression:
 Linear regression is a simple technique and quite easy to interpret, but there are a few obvious disadvantages. One problem in using regression algorithms is that the model overfits to the date and month column. Instead of taking into account the previous values from the point of prediction, the model will consider the value from the same date a month ago, or the same date/month a year ago.
 
+##### Predictions on Tata Global stocks using Linear Regression Model
 ![Linear Regression Model](https://github.com/Badri-04/LSTM_Stock_Prediction/blob/main/images/linear.png)
-                                        Predictions on Tata Global stocks using Linear Regression Model
+                                        
 
 ##### K Nearest Neighbours:
 The RMSE value is almost similar to the linear regression model and the plot shows the same pattern. Like linear regression, kNN also identified a drop in January 2018 since that has been the pattern for the past years. We can safely say that regression algorithms have not performed well on this dataset.
 
-
+##### Predictions on Tata Global stocks using kNN Model
 ![kNN Model](https://github.com/Badri-04/LSTM_Stock_Prediction/blob/main/images/knn.png)
-					Predictions on Tata Global stocks using kNN Model
+					
 ##### LSTM Model:
 LSTMs are widely used for sequence prediction problems and have proven to be extremely effective. The reason they work so well is because LSTM is able to store past information that is important, and forget the information that is not. LSTM has three gates:
 •	The input gate: The input gate adds information to the cell state
 •	The forget gate: It removes the information that is no longer required by the model
 •	The output gate: Output Gate at LSTM selects the information to be shown as output
  
-
+##### Predictions on Tata Global stocks using LSTM Model
 ![LSTM Model](https://github.com/Badri-04/LSTM_Stock_Prediction/blob/main/images/lstm.png)
-					Predictions on Tata Global stocks using LSTM Model
+					
 
 ### Process Diagram:
 
@@ -63,12 +64,13 @@ LSTMs are widely used for sequence prediction problems and have proven to be ext
 
 ### Performance:
 
+##### Training loss on Amazon Stock Data
 ![Training loss](https://github.com/Badri-04/LSTM_Stock_Prediction/blob/main/images/loss.png)
-					Training loss on Amazon Stock Data
+					
  
 
 ### Result:
-#####                                   Microsoft Stock Predictions
+### Microsoft Stock Predictions
 
 ![Microsoft Stock Predictions](https://github.com/Badri-04/LSTM_Stock_Prediction/blob/main/images/msoft.png)
 	
